@@ -6,15 +6,15 @@ const Graph = ({ confrm, recover, dead, globalConfrm, globalDead, globalRecover,
     const data = [
         {
             name: 'Active',
-            value: isCountry ? confrm : globalConfrm
+            value: confrm
         },
         {
             name: 'Recover',
-            value: isCountry ? recover : globalRecover
+            value: recover
         },
         {
             name: 'Deathes',
-            value: isCountry ? dead : globalDead
+            value: dead
         }
     ]
 
